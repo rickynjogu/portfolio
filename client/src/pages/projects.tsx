@@ -14,7 +14,7 @@ export default function Projects() {
   const { data: projects = [], isLoading, error } = useQuery<Project[]>({
   queryKey: ["projects"],
   queryFn: async () => {
-    const response = await fetch("http://localhost:5000/api/projects");
+    const response = await fetch("/api/projects");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
