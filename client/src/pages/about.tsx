@@ -73,18 +73,13 @@ export default function About() {
             <div className="space-y-4" data-testid="text-bio">
               <h2 className="text-2xl md:text-3xl font-bold">Hi, I'm a Full-Stack Developer</h2>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                With a passion for creating elegant solutions to complex problems, I specialize in
-                building modern web applications that are fast, accessible, and user-friendly.
+                With a passion for creating elegant solutions to complex problems, I specialize in building modern web applications that are fast, accessible, and user-friendly — including AI-powered tools using RAG, semantic search, and large language models.
               </p>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                My journey in software development started with a curiosity about how things work,
-                and has evolved into a career focused on building impactful digital experiences.
-                I believe in writing clean, maintainable code and continuously learning new
-                technologies.
+                My journey in software development started with a curiosity about how things work, and has evolved into a career focused on building impactful digital experiences — from full-stack web apps to AI and machine learning projects. I believe in writing clean, maintainable code and continuously learning new technologies.
               </p>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring new frameworks, contributing to
-                open-source projects, or sharing knowledge with the developer community.
+                When I'm not coding, you'll find me exploring new frameworks, experimenting with LLMs, contributing to open-source projects, or sharing knowledge with the developer community.
               </p>
             </div>
 
@@ -96,6 +91,10 @@ export default function About() {
               <Badge variant="outline" className="text-sm px-3 py-1">
                 <Code2 className="w-3 h-3 mr-1.5" />
                 Clean Code
+              </Badge>
+              <Badge variant="outline" className="text-sm px-3 py-1">
+                <Sparkles className="w-3 h-3 mr-1.5" />
+                AI-Focused
               </Badge>
               <Badge variant="outline" className="text-sm px-3 py-1">
                 <Palette className="w-3 h-3 mr-1.5" />
