@@ -1,0 +1,138 @@
+🧭 AI Instruction Blueprint — Personal Portfolio with Project Progress Tracking
+🪄 Project Overview
+
+You are my coding assistant.
+We are building a personal portfolio website using React and Tailwind CSS as the frontend stack.
+
+The site will showcase:
+
+✅ Completed projects
+
+🟡 In-progress projects
+
+🕓 Upcoming (coming soon) projects
+
+Each project card will display:
+
+A progress banner or timer
+
+Percentage of completion
+
+Optional ETA and status
+
+Later, this frontend will be connected to a Django backend for dynamic project updates.
+
+🧱 Main Features
+1. 🏡 Home Page
+
+Profile section with:
+
+👤 Personal photo / avatar
+
+🧑‍💻 Name, tagline, and short intro (“What I do”)
+
+📍 Optional location or title (e.g., “AI & Web Developer”)
+
+CTA Buttons:
+
+“View Projects”
+
+“Contact Me” (scroll to contact section or opens modal)
+
+Optional hero animation or banner (to make it modern)
+
+Optional typewriter or fade-in animation on the tagline
+
+2. 🧭 Projects Page
+
+Display projects grouped by:
+
+✅ Completed
+
+🟡 In Progress (with % progress bar)
+
+🕓 Coming Soon
+
+Each Project Card must include:
+
+Title
+
+Short description
+
+Tech stack used (tags or icons)
+
+“Coming Soon” ribbon if not done
+
+Progress bar (%)
+
+Expected completion date (optional)
+
+Link to live demo (if available)
+
+Link to GitHub repo
+
+Optional image or screenshot
+
+Cards should have hover effects revealing more info.
+
+Projects are automatically sorted by progress (highest first), then by status, then by ETA.
+
+3. 📊 Progress Visualization
+
+Automatic sorting logic:
+
+Completed (100%) at top
+
+In progress (1–99%)
+
+Coming soon (<20%)
+
+Timeline / Roadmap view (optional but encouraged)
+
+Progress bar dynamically reflects the progress value
+
+“Coming Soon” banner auto-applies if progress < 20%
+
+4. 📨 Contact Section
+
+Simple contact form (optional)
+
+Name, email, message
+
+Social links section with icons for:
+
+GitHub
+
+LinkedIn
+
+Twitter (or X)
+
+Instagram (if applicable)
+
+Email icon
+
+All social links should be clickable and open in a new tab.
+
+Optional hover animation on icons.
+
+5. 📸 About Section (Optional but Recommended)
+
+Your personal story or short bio
+
+Profile picture (centered or side-aligned)
+
+Skills list (e.g., Django, AI, React, Tailwind, etc.)
+
+Download CV button (optional)
+
+Soft fade-in animations for a clean professional feel.
+
+⚡ Technical Requirements
+
+Frontend: React + Tailwind CSS
+
+Animations: Framer Motion for smooth transitions and banners
+
+Project data: Start with static JSON or JS objects (later fetch from Django backend)
+
+Responsive: Fully responsive for mobile, tablet, and desktop
