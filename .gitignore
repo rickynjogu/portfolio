@@ -25,6 +25,12 @@ Thumbs.db
 .vscode/
 *.sublime-*
 
+# Documentation (kept locally only)
+replit.md
+design_guidelines.md
+SETUP_INSTRUCTIONS.md
+COMPLETE_CODE_REFERENCE.md
+
 # Optional
 coverage/
 .nyc_output/
