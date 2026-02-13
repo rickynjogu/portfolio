@@ -102,9 +102,11 @@ export default function About() {
               </Badge>
             </div>
 
-            <Button size="lg" variant="outline" className="mt-4" data-testid="button-download-cv">
-              <Download className="w-4 h-4 mr-2" />
-              Download CV
+            <Button size="lg" variant="outline" className="mt-4" asChild data-testid="button-download-cv">
+              <a href="/cv.pdf" download target="_blank" rel="noopener noreferrer">
+                <Download className="w-4 h-4 mr-2" />
+                Download CV
+              </a>
             </Button>
           </motion.div>
         </div>
