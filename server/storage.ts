@@ -87,7 +87,7 @@ export class MemStorage implements IStorage {
         progress: 100,
         techStack: ["Python", "AI", "RAG"],
         githubUrl: "https://github.com/rickynjogu/recipe-rag-chatbot",
-        liveUrl: "https://recipe-rag-chatbot.vercel.app",
+        liveUrl: null,
         imageUrl: null,
         eta: null,
       },
